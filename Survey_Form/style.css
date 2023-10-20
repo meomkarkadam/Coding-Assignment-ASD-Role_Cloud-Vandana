@@ -63,7 +63,7 @@
         }
 
 
-        /* Add styles for overlay and popup */
+/* Style for popup */
 .overlay {
     display: none;
     position: fixed;
@@ -88,6 +88,9 @@
     z-index: 2;
 } 
 
+
+/* STYLE OF A CLOSE BUTTON ON POPUP WINDOW */
+
 .popup .close {
     position: absolute;
     top: 1px;
@@ -101,6 +104,8 @@
     border-radius: 50px;
 }
 
+
+/* STYLE FOR BODY HEADING */
 body h2 {
     font-size: 35px; /* Adjust the font size to your preference */
     color: white;

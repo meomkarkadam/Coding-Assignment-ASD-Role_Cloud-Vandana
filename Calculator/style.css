@@ -1,3 +1,4 @@
+/* STYLE FOR CALCULATOR BODY */
 body {
     margin: 0;
     display: flex;
@@ -10,6 +11,7 @@ body {
 
 }
 
+/* STYLE FOR CONTAINER FOR CALCULTOR */
 .container {
     max-width: 100%;
     max-height: 100%;
@@ -18,8 +20,8 @@ body {
     border-radius: 0%;
     color: black;
     border-color: white;
-    border-width: 5px; /* You can adjust the value as needed */
-    border-style: solid; /* Specify the border style */
+    border-width: 5px; 
+    border-style: solid; 
     
     
 }
@@ -31,7 +33,7 @@ body {
 
 
 
-
+/* STYLE FOR CALCULATOR BUTTONS */
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -40,6 +42,7 @@ body {
     background-color: transparent;
 }
 
+/* STYLE FOR BUTTONS */
 
 .buttons button {
     width: 100%;
@@ -65,7 +68,7 @@ body {
 }
 
 
-
+/* STYLE FOR CALCULATOR DISPLAY WHERE ALL OPERATIONS ARE SHOWN */
 .calculator-display {
     display: grid;
     max-width: 165%;
@@ -74,18 +77,20 @@ body {
     gap: 0;
     border: none;
     background-color: transparent;
-    padding: 0; /* Reset padding to zero */
+    padding: 0; 
 }
 
 
 .display{
-    color: black; /* Assuming this is the text color for both display and clear button */
+    color: black; 
     padding-left: 112px;
 }
+
+/* STYLE FOR CLEAR BUTTON BY */
 .clear {
-    color: black; /* Assuming this is the text color for both display and clear button */
+    color: black; 
     background-color: blue;
-    padding: 10px; /* Adjust the padding as needed for styling */
+    padding: 10px; 
     cursor: pointer;
 
 
