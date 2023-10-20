@@ -1,0 +1,119 @@
+ /* Styling the Body element i.e. Color, 
+        Font, Alignment */ 
+        body {
+            background-color: #805fe4dd;
+            font-family: Verdana;
+            text-align: center;
+        }
+
+        
+
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Styling form-group Class */
+        .form-group {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        /* Styling form-group Label */ 
+        .group-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+         /* Styling form-control input, 
+        select, textarea */
+        .group-form input,
+        .group-form select,
+        .group-form textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+
+        /* Styling form-control Radio 
+        button and Checkbox */
+        .group-form input[type="radio"] {
+            display: inline-block;
+            width: auto;
+        }
+        
+
+        /* Styling Button */
+        button {
+            background-color:#805fe4dd;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: inline;
+            width: 20%;
+            /* margin-top: 50px; */
+            /* margin-bottom: 20px;  */
+        }
+
+
+        /* Add styles for overlay and popup */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+} 
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+} 
+
+.popup .close {
+    position: absolute;
+    top: 1px;
+    right: 1px; /* Adjusted from 'right' to 'left' */
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #f44336; /* Red color for the close button */
+    color: #fff; /* White text color */
+    padding: 5px 10px; /* Add padding for better appearance */
+    border: none;
+    border-radius: 50px;
+}
+
+body h2 {
+    font-size: 35px; /* Adjust the font size to your preference */
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+         
